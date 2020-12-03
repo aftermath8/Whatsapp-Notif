@@ -14,6 +14,6 @@ After some research, I came across this script:
 2. Download the script or clone the repo
 3. Make the script executable (`$ chmod +x notify_whatsapp.sh`)
 4. Enter your data (telephone number + message you wanna send) 
-5. Execute `notify_whatsapp.sh` (`$ ./notify_whatsapp`)
+5. Execute `notify_whatsapp.sh` (`$ ./notify_whatsapp.sh`)
 
 This script is useful to send notifications in case of a malfunction. Ideally, it should be integrated in a main script, which performs daily checks, and if it detects an error, that's when _Whatsapp-Notif_ intervenes to instantly inform the admin. We don't always check our emails, and being notified on time by WhatsApp can optimize reaction time and thus minimize negative consequences.
